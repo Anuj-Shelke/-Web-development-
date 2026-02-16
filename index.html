@@ -3,48 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Making Invitation Card Challenge </title>
+  <title>Create a dark blue navigation bar with light color item</title>
   <style>
-  .image{
-    display: flex;
-    justify-content: center ;
-    align-items: center ;
-    height : vh ; 
-    }
     body{
-      background :  #e0e0e0;
-      display: flex ;
-      justify-content: center ;
+      background-color: rgb(69, 202, 246);
+      background-size : auto ;
+    /* <!-- Here is background is taken auto answer to Question no 5   --> */
+    }
+    .Box1{
+      width : 250px ;
+      height : 50px ;
+      background-color: rgb(231, 231, 12) ;
+      position : fixed; 
+      top  : 150px ; 
+      left : 10px; 
 
-      height : 100vh ; 
-      font-family : sans-serif ; 
+
     }
-    button {
-  margin-top: 15px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  background: #4da3ff;
-  color: white;
-  cursor: pointer;
+    .navbar{
+      background-color: rgb(3, 3, 53);
+      color : white; 
+      height: 50px;
+     
+       
+
+
     }
+    body, html {
+  overflow: auto;
+}
+
+
+    .navbar ul{
+      display: flex;
+      justify-content: center ;
+      align-items:center;
+      list-style: none ;
+     
+    }
+    .navbar li{
+       margin : 0 20px ; 
+    }
+.Container{
+  width: 250px;
+  height: 45px ;
+  background-color: darkred;
+  border: 2px darkblue;
+  text-align: center ;
+
+}
   </style>
-    
+
+
 </head>
 <body>
-  <div >
-  <div class = "image ">
-<img src="image.png" alt = "Invitation Image " height = 100 >
-</div>
-<div class = "image"><h1>Invitation Card </h1></div>
-<div style{
-  align-items : center; 
-}>Lorem ipsum dolor sit amet 
-  consectetur adipisicing elit. Blanditiis, 
-  architecto!</div>
-<div>
-  <button>read more</button>
-</div>
+  <nav class = "navbar">
+    <ul>
+      <li>Home </li>
+      <li>Contact </li>
+      <li>Help </li>
+      <li>Login </li>
+
+    </ul>
+  </nav>
+  <div class = "Container">
+    <p>Change the Color of main Container in your page to darkred  </p>
   </div>
+  <div class = "Box1">
+    This is a box that would not move when scrolled 
+  
+  
+  
 </body>
 </html>
