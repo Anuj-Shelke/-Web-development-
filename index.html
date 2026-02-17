@@ -3,49 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Variables Applications </title>
+  <title>CSS Media Queries </title>
   <style>
-    :root{
-      margin: 0 ;
-      padding 0 ;
-      background-color: rgb(181, 181, 225);
-      --color : rgb(72, 72, 186) ;
-      --seccolor : rgb(86, 6, 70) ;
+    @media screen and (max-width : 455px ) {
+      body{
+        background-color: black ;
+      }
     }
-    ul{
-      display : flex ;
-      
-    }
-    li{
-      
-      list-style: none ;
-      text-align: center;
-      padding : 10px; 
-    }
-    nav{
-      background-color:var(--color);
-
-    }
-    .text{
-      
-      background-color: var(--seccolor);
-      color : rgb(86, 218, 86) ;
-    }
-
   </style>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li>Home </li>
-      <li>Contact </li>
-      <li>Help </li>
-      <li>About us </li>
-    </ul>
-  </nav>
-  <div class = "text ">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa modi velit similique, beatae, rem sapiente commodi vitae dolore reiciendis obcaecati explicabo sunt laboriosam quis praesentium autem in esse, molestias unde.
-  </div>
-  
+  <div>What this Command @</div>
 </body>
 </html>
