@@ -3,76 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Create a dark blue navigation bar with light color item</title>
+  <title>CSS Variables Applications </title>
   <style>
-    body{
-      background-color: rgb(69, 202, 246);
-      background-size : auto ;
-    /* <!-- Here is background is taken auto answer to Question no 5   --> */
+    :root{
+      margin: 0 ;
+      padding 0 ;
+      background-color: rgb(181, 181, 225);
+      --color : rgb(72, 72, 186) ;
+      --seccolor : rgb(86, 6, 70) ;
     }
-    .Box1{
-      width : 250px ;
-      height : 50px ;
-      background-color: rgb(231, 231, 12) ;
-      position : fixed; 
-      top  : 150px ; 
-      left : 10px; 
-
-
+    ul{
+      display : flex ;
+      
     }
-    .navbar{
-      background-color: rgb(3, 3, 53);
-      color : white; 
-      height: 50px;
-     
-       
-
-
-    }
-    body, html {
-  overflow: auto;
-}
-
-
-    .navbar ul{
-      display: flex;
-      justify-content: center ;
-      align-items:center;
+    li{
+      
       list-style: none ;
-     
+      text-align: center;
+      padding : 10px; 
     }
-    .navbar li{
-       margin : 0 20px ; 
-    }
-.Container{
-  width: 250px;
-  height: 45px ;
-  background-color: darkred;
-  border: 2px darkblue;
-  text-align: center ;
+    nav{
+      background-color:var(--color);
 
-}
+    }
+    .text{
+      
+      background-color: var(--seccolor);
+      color : rgb(86, 218, 86) ;
+    }
+
   </style>
-
-
 </head>
 <body>
-  <nav class = "navbar">
+  <nav>
     <ul>
       <li>Home </li>
       <li>Contact </li>
       <li>Help </li>
-      <li>Login </li>
-
+      <li>About us </li>
     </ul>
   </nav>
-  <div class = "Container">
-    <p>Change the Color of main Container in your page to darkred  </p>
+  <div class = "text ">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa modi velit similique, beatae, rem sapiente commodi vitae dolore reiciendis obcaecati explicabo sunt laboriosam quis praesentium autem in esse, molestias unde.
   </div>
-  <div class = "Box1">
-    This is a box that would not move when scrolled 
-  
-  
   
 </body>
 </html>
