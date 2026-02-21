@@ -1,28 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Media Queries </title>
+  <title>Fixed Navbar Example</title>
   <style>
-    
-    .boxes::before{
-      content : "Testing the boxes before tag "; 
-
+    body {
+      margin: 0;
+      background-color: black;
+      padding-top: 35px; /* navbar height */
     }
-    .boxes::after{
-      content : "Testing the Box after Box ";
+
+    .Navigation {
+      width: 100%;
+      background-color: blue;
+      height: 35px;
+      top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 1000;
+    }
+
+    .Green_box {
+      display: flex;
+      gap: 25px;
+      padding: 30px;
+      justify-content: center;
+      height: 60vh;
+      width: 100%;
+      background-color: green;
+    }
+
+    .left_box, .right_box {
+      width: 300px;
+      height: 200px;
+    }
+
+    .left_box {
+      background-color: pink;
+    }
+
+    .right_box {
+      background-color: lightblue;
+    }
+
+    .Bottom_box {
+      text-align: center;
+      justify-content: center;
+      background-color: black;
+      border-radius: 10px;
+      color: white;
+      align-items: center;
+      display: flex;
+      margin: 40px auto;
+      border: 2px solid white;
+      padding: 20px;
+      width: 60%;
     }
   </style>
 </head>
-
 <body>
-  <div class="boxes">
-    <br>This is box 1<br>
-    This is box 2 <br>
-    This is box 3 <br>
-  </div>
-</body>
 
+  <nav class="Navigation"></nav>
+
+  <div class="Green_box">
+    <div class="left_box"></div>
+    <div class="right_box"></div>
+  </div>
+
+  <div class="Bottom_box">Welcome to Sigma Web Development Express</div>
+
+</body>
 </html>
