@@ -3,72 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fixed Navbar Example</title>
+  <title>Porject 3 Designing The Navigation Bar Using the FLexBox</title>
   <style>
-    body {
-      margin: 0;
-      background-color: black;
-      padding-top: 35px; /* navbar height */
+    body{
+      margin : 0%; 
+      margin-top: 0%;
     }
-
-    .Navigation {
-      width: 100%;
+    .bar{
       background-color: blue;
-      height: 35px;
-      top: 0;
-      left: 0;
-      position: fixed;
-      z-index: 1000;
-    }
-
-    .Green_box {
-      display: flex;
-      gap: 25px;
-      padding: 30px;
-      justify-content: center;
-      height: 60vh;
+      height: 50px;
       width: 100%;
-      background-color: green;
-    }
-
-    .left_box, .right_box {
-      width: 300px;
-      height: 200px;
-    }
-
-    .left_box {
-      background-color: pink;
-    }
-
-    .right_box {
-      background-color: lightblue;
-    }
-
-    .Bottom_box {
-      text-align: center;
-      justify-content: center;
-      background-color: black;
-      border-radius: 10px;
-      color: white;
-      align-items: center;
+      margin-top: 0%;
+      gap : 15%; 
+      border-top: 0%;
+      color : white; 
       display: flex;
-      margin: 40px auto;
-      border: 2px solid white;
-      padding: 20px;
-      width: 60%;
+    }
+    .logo{
+      gap : 25% ; 
     }
   </style>
 </head>
 <body>
+  <nav class = "bar">
+    <div class = "logo">logo</div>
+    <div>home</div>
+    <div>About</div>
+    <div>Service</div>
+    <div>Contact</div>
 
-  <nav class="Navigation"></nav>
-
-  <div class="Green_box">
-    <div class="left_box"></div>
-    <div class="right_box"></div>
-  </div>
-
-  <div class="Bottom_box">Welcome to Sigma Web Development Express</div>
-
+  </nav>
 </body>
 </html>
