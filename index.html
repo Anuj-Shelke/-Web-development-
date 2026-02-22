@@ -3,35 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Porject 3 Designing The Navigation Bar Using the FLexBox</title>
+  <title>Transform </title>
   <style>
-    body{
-      margin : 0%; 
-      margin-top: 0%;
+    .container {
+      border : 2px solid black ; 
+      height : 255px ; 
+      width : 255px ; 
+
     }
-    .bar{
-      background-color: blue;
-      height: 50px;
-      width: 100%;
-      margin-top: 0%;
-      gap : 15%; 
-      border-top: 0%;
-      color : white; 
-      display: flex;
-    }
-    .logo{
-      gap : 25% ; 
-    }
+    .box{
+      height: 55px;
+      width: 55px ;
+      border :  2px solid black ; 
+      text-align: center ;
+      align-content: center ;
+      justify-content: center ;
+      background-color: aqua;
+      transform: rotate(45deg);
+  }
   </style>
+  
 </head>
 <body>
-  <nav class = "bar">
-    <div class = "logo">logo</div>
-    <div>home</div>
-    <div>About</div>
-    <div>Service</div>
-    <div>Contact</div>
-
-  </nav>
+  <div class = "container" >
+  <div class = "box">box</div>
+  </div>
 </body>
 </html>
