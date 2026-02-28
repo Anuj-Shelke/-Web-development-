@@ -1,6 +1,117 @@
-#firstdev{
-    color: red ;
+body{
+  background-color: black ;
 }
-.bg red {
-    background-color: rgb(227, 181, 125);
+
+.main {
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/5eb03855-b753-4788-b9b3-0cc29e3d2891/web/IN-en-20260223-TRIFECTA-perspective_7bcba0fc-d5a5-42f6-b4ed-2ca56a458c61_large.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: black;
+
+}
+
+.nav_bar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+
+  align-items: center;
+  color: red;
+
+
+}
+
+#nav_button button {
+  display: flex;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 2px px;
+  border-radius: 10%;
+  cursor: pointer;
+  height: 45px;
+  align-items: center;
+
+
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  height: 45px;
+  color: white;
+
+
+
+}
+
+.mid_text {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 80;
+  color: white;
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+
+}
+
+h1 {
+  margin: 0%;
+}
+
+.baby_mid {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 80;
+  color: white;
+  text-align: top;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 80;
+  color: white;
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-top: 0%;
+  padding-top: 0%;
+  border-top: 0cap;
+
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+   
+  margin-top: 0%;
+  
+
+  
+}
+.get_started {
+background-color: red ;
+color: white ;
+
+}
+.box{
+  height: 25px ;
+  color: black ;
 }
