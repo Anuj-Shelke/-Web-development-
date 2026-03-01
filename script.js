@@ -1,3 +1,20 @@
-//Progarm to Check a number is divisible by 2 and 3  
-let num = 6 ; 
-let a =( num % 2 == 0 ) & (num % 3 == 0)  ? console.log("Num is Divisible by 2 and 3 "): console.log("Num is not divisible by 2 and 3 "); 
+let obj =  {
+    name : "anuj",
+    roll_no : 23 ,
+    class :" S.E"
+}
+for (const key in obj) {
+   console.log(key);
+}
+for(let  i = 0 ; i< 100 ; i++){
+    console.log(i+1); 
+}
+for (const c of "harry") {
+    console.log(c); 
+}
+
+let i = 0 ; 
+while(i<6){
+    console.log(i);
+    i = i+1; 
+}
