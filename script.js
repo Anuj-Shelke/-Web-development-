@@ -1,20 +1,11 @@
-let obj =  {
-    name : "anuj",
-    roll_no : 23 ,
-    class :" S.E"
-}
-for (const key in obj) {
-   console.log(key);
-}
-for(let  i = 0 ; i< 100 ; i++){
-    console.log(i+1); 
-}
-for (const c of "harry") {
-    console.log(c); 
+//JS Functions 
+function nice(name){
+console.log("Hello "+name+" How are you "); 
+console.log("We are delited to see you "+name); 
+console.log("We know that Advance booking of the name "+name+" Has been done "); 
+console.log("Our Hotel Welcomes "+name+" with Friends "); 
+console.log("Thanks for Visting "+name );
+console.log("We value customers like you "+name);
 }
 
-let i = 0 ; 
-while(i<6){
-    console.log(i);
-    i = i+1; 
-}
+nice("Anuj");
