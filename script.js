@@ -1,8 +1,3 @@
-//Progarm to check if the number is present in the given sequence 
+//Progarm to Demostrate the use of Switch Case 
 let num = 3; 
-if(num > 10 & num < 20 ){
-    console.log("The num is in between the vip number "); 
-}
-else{
-    console.log("The Number is not between The vip number  "); 
-}
+let a = num > 4 ? console.log("A is greater than num"): console.log("A is smaller than num "); 
