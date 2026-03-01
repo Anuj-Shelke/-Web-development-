@@ -1,1 +1,4 @@
-alert("Entered the Website ")
+console.log("Hello world "); 
+var a = 5; 
+var b = 6; 
+console.log(a+b); 
