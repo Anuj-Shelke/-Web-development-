@@ -1,9 +1,5 @@
-let a = "Anuj"; 
-console.log(a.length); 
-console.log(a.startsWith("A"));
-console.log(a.endsWith("J"));
-console.log(a); 
+console.log("Anuj")
+let boxs = document.getElementsByClassName("container")
+console.log(boxs)
+document.getElementById("red").style.backgroundColor = ("red");
 
-let b = "CODE TO CONVERT GIVEN STRING TO LOWERCASE "; 
-console.log(b.toLowerCase());
-//String in JavaScript is immutable cannot be changed 
