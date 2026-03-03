@@ -1,27 +1,39 @@
-let arr = [1,2,3,4,5,6]; 
-arr.forEach(function(val){
-    console.log(val); 
+//Create a array of three fruits Print the Second Fruit 
+let fruits = ["mango","Apple","PineApple"]; 
+fruits[1]; 
+//Add kiwi at the first position and chickoo at the last position 
+fruits.unshift("Kiwi"); 
+fruits.push("Chickoo"); 
+console.log(fruits); 
+//Replace Banana With kiwi With the Given Array 
+fruits.splice(0,1,"Bannana"); 
+console.log(fruits); 
+//What is the difference Between .push() and .unshift() 
+//.push() adds element at the end .unshift adds element at the start 
+//REMOVE THE LAST ELEMENT FROM THE ARRAY 
+fruits.pop(); 
+console.log(fruits); // Popped Chickoo 
+// Extract only middle three element from the array ; 
+let frr = fruits.slice(1,3); 
+console.log(frr); 
+//sort the list of fruits in an alphabatically ; 
+fruits.sort().reverse(); 
+console.log(fruits); 
+//Create a new array and use filter to keep only number Greater than 10 ;
+let nums = [1,2,78,5,63,23,12]; 
+let greater = nums.filter(function(val){
+    return val >10; 
 });
-arr.push(13); 
-
-arr.pop();
-arr.shift(); 
-
- 
-arr.unshift("Unshifted"); 
-arr.splice(1,2,5);//Started from index 1 removed two elements (2,3) and adds 5 on their place 
-let newarr = arr.slice(1,4); 
-console.log(newarr); 
-arr.reverse();// reverse the original Array 
-arr.sort(); //sort the original Array 
-let even = arr.filter(function(val){
-return val %2 === 0 ; 
-});//Filtered the Main array and returned only the sorted array as new one 
-console.log(even); 
-let total  = arr.reduce(function(accumulator , val ){
+console.log(greater); 
+//------------------**Using Reduce**---------------------
+//Use reduce to get the Sum of the ARRAY ; 
+let sum = nums.reduce(function(accumulator,val){
     return accumulator+val ; 
-},0); 
-console.log(total); 
-console.log(arr);
-let arr2 = [...arr]; 
-console.log(arr2); //Creates a copy of the original Array but here the thing is The copied arry is complete independent changes made in it does not affect the original one 
+},0);
+console.log(sum); 
+//--------------------**Using Find**---------------------
+//Use Find to get first number greater than 10 
+let num1 = nums.find(function(val){
+    return val<10;
+});
+console.log(num1);
