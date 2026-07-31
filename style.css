@@ -1,117 +1,43 @@
 body{
-  background-color: black ;
+    font-family: Arial;
+    margin:20px;
 }
 
-.main {
-
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(https://assets.nflxext.com/ffe/siteui/vlv3/5eb03855-b753-4788-b9b3-0cc29e3d2891/web/IN-en-20260223-TRIFECTA-perspective_7bcba0fc-d5a5-42f6-b4ed-2ca56a458c61_large.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-color: black;
-
+h1{
+    color:darkblue;
 }
 
-.nav_bar {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-
-  align-items: center;
-  color: red;
-
-
+h3{
+    color:darkred;
 }
 
-#nav_button button {
-  display: flex;
-  background-color: red;
-  color: white;
-  border: none;
-  padding: 2px px;
-  border-radius: 10%;
-  cursor: pointer;
-  height: 45px;
-  align-items: center;
-
-
+table{
+    border-collapse:collapse;
 }
 
-.nav {
-  display: flex;
-  gap: 10px;
-  height: 45px;
-  color: white;
-
-
-
+td{
+    padding:10px;
+    vertical-align:top;
 }
 
-.mid_text {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 80;
-  color: white;
-  text-align: center;
-  line-height: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
-
+th{
+    background-color:lightgray;
+    padding:8px;
 }
 
-h1 {
-  margin: 0%;
+img{
+    border:1px solid black;
 }
 
-.baby_mid {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 80;
-  color: white;
-  text-align: top;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 80;
-  color: white;
-  text-align: center;
-  line-height: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-top: 0%;
-  padding-top: 0%;
-  border-top: 0cap;
-
+ul{
+    margin-left:20px;
 }
 
-.form {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-   
-  margin-top: 0%;
-  
-
-  
+p{
+    font-size:16px;
 }
-.get_started {
-background-color: red ;
-color: white ;
 
-}
-.box{
-  height: 25px ;
-  color: black ;
+hr{
+    margin-top:10px;
+    margin-bottom:10px;
 }
