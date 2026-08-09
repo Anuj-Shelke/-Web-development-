@@ -14,17 +14,37 @@
         animation-name: box;
         animation-duration: 5s ;
         animation-iteration-count: infinite;
+        position : absolute ; 
 
       }
+
       @keyframes  box{
-        from{
-          transform :   rotate(0deg) ; 
+       0%{
+        transform: rotate(25deg);
+        left:600px ; 
+        top : 20px ; 
+        background-color : orange; 
+       }
+       25%{
+        transform: rotate(90deg);
+        top : 600px ; 
+         left:600px ;
+         background-color : green ; 
 
-        
-      }
-      to{
-        transform : rotate(360deg); 
-      }
+       }
+       50%{
+        transform: rotate(180deg);
+        left : 0%; 
+        top : 600px; 
+        background-color : pink ; 
+
+
+       }
+       75%{
+        transform: rotate(360deg);
+        background-color: blue ;
+
+       }
     }
         
     </style>
