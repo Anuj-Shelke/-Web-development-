@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .name{
+            border: 2px  solid black ;
+            height : 100px; 
+            width : 100px ; 
+            background-color: yellow ;
+            margin : 10px ;
+            animation-name: "race" ; 
+            animation-timing-function: ease-in;
+            animation-duration: 5s ;
+            animation-delay: 1s;
+            animation-iteration-count: infinite ;
+            position: relative ;
+            animation-direction: alternate;
+            
+        }
+        @keyframes race{
+            from{
+                left : 0px; 
+            }
+            to{
+                left : 1000px ; 
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class = "name"></div>
+    <div class = "name"></div>
+    <div class = "name"></div>
+    <div class = "name"></div>
+</body>
+</html>

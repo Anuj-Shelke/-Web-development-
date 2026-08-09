@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            align-items : center ; 
+            justify-content: center;
+        }
+        #sun
+        {
+            height: 200px;
+            width : 200px ; 
+            border-radius: 50%;
+            background-color: rgb(237, 108, 2);
+            position : fixed; 
+            top: 260px ; 
+            right : 700px ;
+            animation-name: planet;
+        }
+        #mercury{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-color:orange; 
+            position : fixed; 
+            top: 300px ; 
+            right : 600px ;
+            animation-name: planet;   
+
+
+            
+
+        }
+        #venus{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-color:blue  ; 
+            position : fixed; 
+            top: 300px ; 
+            right : 500px ;
+            animation-name: planet; 
+        }
+        #mars{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-color: red ; 
+            position : fixed; 
+            top: 300px ; 
+            right : 525px ;
+            animation-name: planet; 
+
+        }
+        #earth{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-image : linear-gradient( green ); 
+            position : fixed; 
+            top: 300px ; 
+            right : 450px ;
+            animation-name: planet; 
+
+        }
+        #jupyter{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-color:brown ; 
+            position : fixed; 
+            top: 300px ; 
+            right : 375px ; 
+            animation-name: planet;
+
+        }
+        #saturn{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-color:rgb(216, 150, 150) ; 
+            position : fixed; 
+            top: 300px ; 
+            right : 300px ; 
+            animation-name: planet;
+
+        }
+        #uranus{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-color:blue ; 
+            position : fixed; 
+            top: 300px ; 
+            right : 225px ; 
+            animation-name: planet;
+        }
+        #neptune{
+            height : 80px ; 
+            width : 80px; 
+            border-radius : 50%; 
+            background-color:darkblue; 
+            position : fixed; 
+            top: 300px ; 
+            right : 125px ; 
+            animation-name: planet;
+            animation-duration: 5s ;
+            animation-iteration-count: infinite ;
+        }
+        nep{
+            border-radius: 50%; 
+            height : 800px ; 
+            width : 800px; 
+            border: 2px solid black ;
+            top : 300px ; 
+            right : 125px ; 
+
+
+        }
+        @keyframes planet{
+             from {
+                rotate: (0deg); 
+             }
+             to{
+                rotate: (360deg); 
+             }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id ="nep">
+        <div id = "neptune"></div>
+    </div>
+    <div id="sun"></div>
+    <div id="mercury"></div>
+    <div id ="venus"></div>
+    <div id = "mars"></div>
+    <div id = "earth"></div>
+    <div id = "jupyter"></div>
+    <div id = "saturn"></div>
+    <div id = "uranus"></div>
+   
+
+</body>
+</html>
