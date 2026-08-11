@@ -4,42 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #div{
-            height: 100px;
-            width: 100px;
-            border: 2px solid black ;
-
-        }
-        div:hover{
-            width: 100px;
-            height : 100px; 
-            border-radius: 50%;
-            background-color: yellow ;
-        }
-        #divr{
-            height: 100px;
-            width: 100px;
-            border:2px solid black; 
-           
-        }
-        divr:hover{
-            height:100px ; 
-            width: 100px;
-            border-radius: 50%;
-            background-color: yellow;
-
-        }
-
-    </style>
 </head>
+<style>
+    @media (min-width: 601px){
+        div{
+        background-color: red;
+        height: 300px;
+        width: 300px;
+        }
+
+
+    }
+    @media(min-width:301px){
+        div{
+        background-color: pink ;
+        height: 300px;
+        width: 300px;
+        }
+
+    }
+    @media((min-width:900px) and (max-width : 1200px)){
+        div{
+        background-color: purple ;
+        height: 500px;
+        width: 500px;
+        }
+
+
+    }
+</style>
 <body>
-    <div id="div">
+    <div>
 
     </div>
-    <div id="divr">
-
-    </div>
-    
 </body>
 </html>
