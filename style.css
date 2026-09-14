@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(157, 227, 243);
+     font-size: medium;
+    font-style: italic ;
+}
+header{
+    text-align: center;
+    background: rgb(132, 89, 218);
+}
+#heading{
+    color: rgb(139, 171, 117);
+    font-size: larger;
+}
+.nav{
+    
+    text-align: center ;
+    align-items: center ;
+}
+h2{
+    color: pink;
+}
+.skills{
+    background-color : brown ;
+}
+.project{
+    background-color : yellow;
+}
+
