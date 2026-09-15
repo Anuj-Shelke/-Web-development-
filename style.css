@@ -2,6 +2,16 @@ body{
     background-color: rgb(157, 227, 243);
      font-size: medium;
     font-style: italic ;
+    border-radius : 2px  ;
+    padding: 50px ;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px ;
+}
+h1{
+    font-size: 50px ;
+    font-weight: 30;
+    line-height: 30%;
 }
 header{
     text-align: center;
@@ -11,18 +21,48 @@ header{
     color: rgb(139, 171, 117);
     font-size: larger;
 }
-.nav{
-    
+.nav ul{
+    z-index: 10;
+    position : sticky; 
+    top : 0%; 
+    display: flex;  
+    margin : 20px ; 
+    gap : 20px ; 
     text-align: center ;
     align-items: center ;
+}
+@media (max-width:360px){
+.nav ul{
+    display: grid ; 
+    grid-template-columns: 1fr;
+}
 }
 h2{
     color: pink;
 }
 .skills{
     background-color : brown ;
+    position : absolute; 
 }
 .project{
+    display : grid; 
+    align-items : center ; 
+    justify-content: center ;
+    grid-template-columns: repeat(3,1fr);   
+    flex : 1 ; 
+    flex-direction: row;
     background-color : yellow;
+        box-shadow: 0 4px 10px gray;
+
 }
+#button{
+    position: fixed;
+    cursor: pointer;
+}
+:hover{
+    background-color: pink;
+    transition: 0.3s;
+}
+
+
 
