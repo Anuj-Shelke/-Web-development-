@@ -19,4 +19,8 @@ else{
 for(let i = 0 ; i <3; i++){
 console.log(skill[i]); 
 }
-const main = document.getElementbyId("var");
+const main = document.getElementById("heading");
+console.log(main); 
+main.style.color = "red"; 
+main.innerText ="hello world"; 
+
